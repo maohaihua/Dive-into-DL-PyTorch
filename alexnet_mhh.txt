@@ -1,5 +1,8 @@
 
 #https://blog.csdn.net/sjtuxx_lee/article/details/83048006
+
+https://blog.csdn.net/Gilgame/article/details/85056344
+
 /*
 用pytorch搭建AlexNet（微调预训练模型及手动搭建）
 
