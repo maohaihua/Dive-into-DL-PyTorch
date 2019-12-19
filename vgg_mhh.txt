@@ -2,6 +2,7 @@ https://blog.csdn.net/rocketeerLi/article/details/93139155
 
 https://www.jianshu.com/p/2b968e7a1715
 https://zhuanlan.zhihu.com/p/28492837
+https://zhuanlan.zhihu.com/p/80041030
 
 
 VGG 有很多优点，最本质的特点就是用小的卷积核(3x3)代替大的卷积核，2个 3x3 卷积堆叠等于1个 5x5 卷积，3 个 3x3 堆叠等于1个 7x7 卷积，感受野大小不变。
