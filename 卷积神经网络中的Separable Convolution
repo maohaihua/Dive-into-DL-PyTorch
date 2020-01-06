@@ -23,3 +23,17 @@ https://www.cnblogs.com/wj-1314/p/11337807.html
   结构。这些Inception Module只在网络的后部出现，前面还是普通的卷积层。并且Inception V3除了在Inception Module中
   使用分支，还在分支中使用了分支（8*8的结构中，可以说是Network In Network In Network。
   
+  https://www.jianshu.com/p/38dc74d12fcf?utm_source=oschina-app
+  
+  https://zhuanlan.zhihu.com/p/50754671
+  
+  http://nooverfit.com/wp/inception深度学习家族盘点-inception-v4-和inception-resnet未来走向何方
+  
+  https://blog.csdn.net/zzc15806/article/details/83504130
+  
+  https://blog.csdn.net/weixin_39953502/article/details/80966046
+  
+  https://blog.csdn.net/u013841196/article/details/80673688
+  
+  https://blog.csdn.net/jesmine_gu/article/details/88626494
+  
