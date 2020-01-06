@@ -1,0 +1,25 @@
+
+卷积神经网络中的Separable Convolution
+
+空间分离卷积
+
+https://yinguobing.com/separable-convolution/#fn2
+
+移动端设备的硬件性能限制了神经网络的规模。本文尝试解释一种被称为
+Separable Convolution的卷积运算方式。它将传统卷积分解为
+Depthwise Convolution与Pointwise Convolution两部分，有效的减小了参数数量。
+
+http://www.sohu.com/a/317166403_394987
+
+https://www.cnblogs.com/adong7639/p/7918527.html
+
+https://www.cnblogs.com/wj-1314/p/11337807.html
+
+　Inception V3网络主要有两方面的改造：一是引入了Factorization into small convolutions的思想，
+ 将一个较大的二维卷积拆成两个较小的一维卷积，比如将77卷积拆成17卷积和71卷积，或者将33卷积拆成13卷积核31卷积。
+ 一方面节约了大量参数，加快运算并减轻过拟合，同时增加了一层非线性扩展模型表达能力。论文中指出，这种非对称的卷积结
+ 构拆分，其结果比对称地拆分为几个相同的小卷积核效果更明显，可以处理更多、更丰富的空间特征，增加特征多样性。
+　　另一方面，Inception V3优化了Inception Module的结构，现在Inception Module有35*35、17*17和8*8三种不同
+  结构。这些Inception Module只在网络的后部出现，前面还是普通的卷积层。并且Inception V3除了在Inception Module中
+  使用分支，还在分支中使用了分支（8*8的结构中，可以说是Network In Network In Network。
+  
